@@ -1,44 +1,29 @@
-# Core dashboard
 streamlit==1.22.0
 streamlit-folium==0.11.1
 plotly==5.14.1
 pandas==2.0.1
 numpy==1.24.3
 pinotdb==0.5.0
-
-# Mapping and Geospatial
+confluent-kafka==2.1.1
 folium==0.14.0
 geopandas==0.13.0
 shapely==2.0.1
 pyproj==3.5.0
 geopy==2.3.0
 branca==0.6.0
-
-# Kafka + APIs
-confluent-kafka==2.1.1
-fastapi==0.95.2
-uvicorn==0.22.0
 requests==2.31.0
-
-# Utilities and display
-altair==4.2.2
-plotly==5.14.1
-rich==13.3.5
-validators==0.20.0
-protobuf==3.20.3
-pydeck==0.8.1b0
-jinja2==3.1.2
-
-# Date/time and encoding
 python-dateutil==2.8.2
 pytz==2023.3
 tzdata==2023.3
 tzlocal==5.0.1
-
-# JSON / schema / misc
 jsonschema==4.17.3
 attrs==23.1.0
 packaging==23.1
 tenacity==8.2.2
 toolz==0.12.0
 typing_extensions==4.6.1
+rich==13.3.5
+validators==0.20.0
+protobuf==3.20.3
+pydeck==0.8.1b0
+jinja2==3.1.2
