@@ -3,7 +3,7 @@ streamlit-folium==0.11.1
 plotly==5.14.1
 pandas==2.0.1
 numpy==1.24.3
-git+https://github.com/apache/pinot-dbapi.git#egg=pinotdb
+pinotdb @ git+https://github.com/apache/pinot-dbapi.git@main
 confluent-kafka==2.1.1
 folium==0.14.0
 geopandas==0.13.0
